@@ -1,4 +1,4 @@
-void command(String message = "beri message", int choice_ = 0, bool act_queue = false) {
+void command(String message = "beri message", int choice_ = 0, bool act_queue = false){
   DEBUG_SERIAL.println(message);
   if (act_queue) {
     queue = true;
